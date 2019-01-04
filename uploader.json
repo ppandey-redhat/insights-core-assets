@@ -1327,6 +1327,16 @@
             "symbolic_name": "heat_conf"
         },
         {
+            "file": "/etc/openstack-dashboard/local_settings",
+            "pattern": [],
+            "symbolic_name": "horizon_local_settings_conf"
+        },
+        {
+            "file": "/var/lib/config-data/puppet-generated/horizon/etc/openstack-dashboard/local_settings",
+            "pattern": [],
+            "symbolic_name": "horizon_local_settings_conf"
+        },
+        {
             "file": "/etc/hosts",
             "pattern": [],
             "symbolic_name": "hosts"
