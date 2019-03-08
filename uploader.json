@@ -707,6 +707,11 @@
             "symbolic_name": "openvswitch_other_config"
         },
         {
+            "command": "python -m insights.tools.cat --no-header ovs_bridge_mac_table_entry_count",
+            "pattern": [],
+            "symbolic_name": "ovs_bridge_mac_table_entry_count"
+        },
+        {
             "command": "/usr/bin/ovs-vsctl show",
             "pattern": [],
             "symbolic_name": "ovs_vsctl_show"
