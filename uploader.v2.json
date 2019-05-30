@@ -1118,6 +1118,11 @@
             "command": "/usr/bin/yum -C repolist",
             "pattern": [],
             "symbolic_name": "yum_repolist"
+        },
+        {
+            "command": "docker exec nova_libvirt /bin/ls -lanR /root",
+            "pattern": [],
+            "symbolic_name": "nova_libvirt_ls_root"
         }
     ],
     "files": [
