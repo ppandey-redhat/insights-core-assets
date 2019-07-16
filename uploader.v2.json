@@ -1900,6 +1900,11 @@
             "symbolic_name": "meminfo"
         },
         {
+            "file": "/proc/mounts",
+            "pattern": [],
+            "symbolic_name": "mounts"
+        },
+        {
             "file": "/var/log/messages",
             "pattern": [
                 " disconnect jid=",
